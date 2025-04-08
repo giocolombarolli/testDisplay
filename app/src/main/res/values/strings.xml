@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Test Display</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_start_test">Iniciar teste</string>
+    <string name="txt_done_test">Passou</string>
+    <string name="txt_fail_test">Falha</string>
+    <string name="txt_timeout_test">Tempo esgotado</string>
+    <string name="txt_all_squares_clicked">Todos os quadrados foram clicados!"</string>
+    <string name="txt_test_failed">Teste falhou: tempo esgotado</string>
+
 </resources>
