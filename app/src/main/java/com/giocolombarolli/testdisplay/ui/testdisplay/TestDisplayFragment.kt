@@ -135,7 +135,6 @@ class TestDisplayFragment : Fragment() {
     private fun startTimeoutCountdown() {
         lifecycleScope.launch {
             delay(10000)
-
             if (binding.buttonClose.visibility != View.VISIBLE) {
                 viewModel.notifyTimeoutReached()
             }
